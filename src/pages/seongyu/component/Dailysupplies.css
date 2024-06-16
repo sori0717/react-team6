@@ -1,0 +1,150 @@
+/* .a2 img{
+    width: 50px;
+    height: 50px;
+    position : absolute;
+    left : -30px;
+    top : -20px;
+}
+
+.a2 ul{
+    font-size : 16px;
+    position : absolute;
+    width : 150px;
+    left : -10px;
+    
+
+}
+
+.a2 {
+    border: 1px solid fff;
+    left : 50px;
+    top : 15px;
+    width : 160px;
+    height : 40px;
+    position : relative;
+}
+
+.a3{
+    position : absolute;
+    left : 330px;
+    top : 160px;
+    font-size : 15px;
+}
+
+
+.Quiz{
+    left : 330px;
+    font-size : 10px;
+    position : absolute;
+    top : 540px;
+    width : 600px;
+
+}
+.Quiz h2 {
+    margin-bottom : 5px;
+    font-size : 10px;
+}
+
+.Quiz form {
+    margin-top : 2px;
+    
+}
+
+.Quiz p{
+    font-size : 14px;
+} */
+
+
+.sg2_a2 img{
+    width: 50px;
+    height: 50px;
+    position : absolute;
+    left : 180px;
+    top : -10px;
+}
+
+.sg2_a2 ul{/*정육점 계산하기*/ 
+    font-size : 16px;
+    position : absolute;
+    width : 150px;
+    left : 200px;
+}
+
+.sg2_a2 { /*정육점 계산하기*/
+    border: 1px solid fff;
+    left : 50px;
+    top : 15px;
+    width : 160px;
+    height : 40px;
+    position : relative;
+}
+
+.sg2_a3{/*문제*/
+    position : absolute;
+    left : 280px;
+    top : 150px;
+    font-size : 15px;
+    
+}
+
+.sg2_table-down {
+    position : absolute;
+    left : 280px;
+    top : 160px;
+    border-radius : 10px;
+    overflow : hidden;
+    display : inline-block;
+    border : 1px dotted #000;
+    margin : 20px 0;
+    border-spacing : -10px;
+    font-size: 13px;
+    height: 250px;
+}
+
+table {
+    width : 330px;
+    height : 115px;
+    border-collapse: collapse;
+    font-weight: 900;
+}
+
+table, th, td {
+    border: 1px dotted #222;
+}
+.sg2_table-down thead{
+    background-color : green;
+    height: 30px;
+}
+
+.sg2_box1{
+    width : 890px;
+    text-align : center;
+    font-weight: 900;
+    height: 250px;
+}
+
+.sg2_jb1{
+    width : -45px;
+    padding : -20px 0;
+}
+
+.sg2_Quiz{
+    left : 280px;
+    font-size : 10px;
+    position : absolute;
+    top : 450px;
+    width : 890px;
+}
+.sg2_Quiz h2 {
+    margin-bottom : 5px;
+    font-size : 15px;
+}
+
+.sg2_Quiz form {
+    margin-top : 2px;
+    font-size: 15px;
+}
+
+.sg2_Quiz p{
+    font-size : 14px;
+}

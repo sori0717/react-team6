@@ -1,0 +1,12 @@
+.quiz-table {
+  width: auto; /* 표의 너비 자동 조정 */
+  table-layout: auto; /* 표의 너비를 내용에 맞게 자동으로 설정 */
+  border-collapse: collapse; /* 테두리가 붙어 있는 경우 간격을 없애기 위해 사용 */
+}
+
+.quiz-cell {
+  word-wrap: break-word; /* 내용이 너무 길 경우 자동으로 줄 바꿈되도록 설정 */
+  border: 1px solid #ddd; /* 테두리 스타일 지정 */
+  padding: 8px; /* 셀 안의 내용과 테두리 사이의 간격 설정 */
+  text-align: left; /* 텍스트 정렬 방식 지정 */
+}

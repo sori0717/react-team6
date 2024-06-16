@@ -1,0 +1,26 @@
+.wrapper{
+    border: solid 1px red;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container {
+    background-color: rgb(247, 249, 250);
+    min-height: 100vh;
+    padding: 20px;
+    width: 70%;
+    /* border: solid 1px red; */
+}
+
+.content {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+
+}
+
+.pagination{
+    margin-top: 10px;
+    justify-content: center;
+    /* border: solid 1px red; */
+}

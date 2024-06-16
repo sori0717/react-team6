@@ -1,0 +1,156 @@
+/* .a1{
+    width: 600px;
+    height: 1000px;
+    border: 1px solid red;
+    position : absolute;
+    left : 30%;
+    top : 5%;
+    bottom : 5%;
+} */
+
+.sg_a2 img{/*정육점 계산하기*/
+    width: 50px;
+    height: 50px;
+    position : absolute;
+    left : 250px;
+    top : -10px;
+}
+
+.sg_a2 ul{/*정육점 계산하기*/ 
+    font-size : 16px;
+    position : absolute;
+    width : 150px;
+    left : 270px;
+}
+
+.sg_a2 { /*정육점 계산하기*/
+    border: 1px solid fff;
+    left : 50px;
+    top : 15px;
+    width : 160px;
+    height : 40px;
+    position : relative;
+}
+
+.sg_a3{/*문제*/
+    position : absolute;
+    left : 330px;
+    top : 160px;
+    font-size : 15px;
+}
+
+.sg_table-left {/*왼쪽 테이블*/
+    position : absolute;
+    left : 330px;
+    top : 170px;
+    border-radius : 10px;
+    overflow : hidden;
+    display : inline-block;
+    border : 1px dotted #000;
+    margin : 20px 0;
+    font-size: 15px;
+}
+
+.sg_table-right {/*오른쪽 테이블*/
+    position : absolute;
+    left : 690px;
+    top : 170px;
+    border-radius : 10px;
+    overflow : hidden;
+    display : inline-block;
+    border : 1px dotted #000;
+    margin : 20px 0;
+    font-size: 15px;
+}
+
+.sg_table-down {/*아레쪽 테이블*/
+    position : absolute;
+    left : 330px;
+    top : 295px;
+    border-radius : 10px;
+    overflow : hidden;
+    display : inline-block;
+    border : 1px dotted #000;
+    margin : 20px 0;
+    border-spacing : -10px;
+    font-size: 13px;
+    height: 155px;
+}
+
+table {
+    width : 330px;
+    height : 115px;
+    border-collapse: collapse;
+    font-weight: 900;
+}
+
+table, th, td {
+    border: 1px dotted #222;
+}
+
+.sg_table-left thead {
+    background-color : #fed5b6;
+}
+
+.sg_table-right thead {
+    background-color : #fed5b6;
+}
+
+.sg_table-down thead{
+    background-color : green;
+}
+
+.sg_table-right th, .table-right td{
+    width : 110px;
+    text-align : center;
+}
+
+.sg_table-left th, .table-left td{
+    width : 110px;
+    text-align : center;
+}
+
+.sg_box1{
+    width : 690px;
+    text-align : center;
+    font-weight: 900;
+}
+
+.sg_jb1{
+    width : -45px;
+    padding : -20px 0;
+}
+
+.sg_Quiz{
+    left : 330px;
+    font-size : 10px;
+    position : absolute;
+    top : 480px;
+    width : 50%;
+
+}
+.sg_Quiz h2 {
+    margin-bottom : 5px;
+    font-size : 10px;
+}
+
+.sg_Quiz form {
+    margin-top : 2px;
+    
+}
+
+.sg_Quiz p{
+    font-size : 14px;
+}
+
+.nextQuizLink{
+    right: 0px;
+    color: white;
+    background-color:green; 
+    text-decoration:none; 
+    font-size:large; 
+    padding:10px;
+    border:none ;
+    border-radius:10px;
+    margin-bottom: 30px;
+}

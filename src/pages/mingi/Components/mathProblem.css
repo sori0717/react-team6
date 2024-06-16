@@ -1,0 +1,84 @@
+/* 전체 페이지 설정 */
+.math-app {
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100vh; /* 화면 전체 높이 */
+    margin: 0; /* 기본 여백 제거 */
+    background-color: #f9f9f9; /* 배경색 설정 */
+  }
+  
+  .math-app-container {
+    text-align: center; /* 텍스트 중앙 정렬 */
+  }
+  
+  .math-equation-solver {
+    display: inline-block; /* 인라인 블록 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    background-color: white; /* 배경색 흰색 */
+    padding: 20px; /* 내부 여백 설정 */
+    border-radius: 8px; /* 모서리 둥글게 설정 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  }
+  
+  .math-equation-header {
+    display: flex; /* Flexbox 사용 */
+    justify-content: center; /* 중앙 정렬 */
+    margin-bottom: 20px; /* 아래 여백 */
+    padding: 10px; /* 내부 여백 설정 */
+    border-bottom: 2px solid #ccc; /* 아래 테두리 설정 */
+    font-weight: bold; /* 폰트 굵게 */
+    background-color: #f0f0f0; /* 배경색 설정 */
+  }
+  
+  .math-equation-header span {
+    margin: 0 10px; /* 좌우 여백 설정 */
+  }
+  
+  .math-equation-row {
+    display: flex; /* Flexbox 사용 */
+    justify-content: space-around; /* 요소 간의 공간을 동일하게 배분 */
+    align-items: center; /* 수직 중앙 정렬 */
+    margin-bottom: 10px; /* 아래 여백 */
+  }
+  
+  .math-equation-row span {
+    display: inline-block; /* 인라인 블록 설정 */
+    width: 30px; /* 고정 너비 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+  }
+  
+  .math-equation-row input {
+    width: 30px; /* 고정 너비 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    margin: 0 5px; /* 좌우 여백 */
+    border: 1px solid #ccc; /* 테두리 설정 */
+    border-radius: 4px; /* 모서리 둥글게 설정 */
+    padding: 5px; /* 내부 여백 */
+  }
+  
+  .math-equation-row button {
+    margin-left: 10px; /* 왼쪽 여백 */
+    padding: 5px 10px; /* 내부 여백 설정 */
+    border: none; /* 테두리 없음 */
+    border-radius: 4px; /* 모서리 둥글게 설정 */
+    background-color: #007bff; /* 배경색 파란색 */
+    color: white; /* 텍스트 색상 흰색 */
+    cursor: pointer; /* 커서 포인터 모양 */
+  }
+  
+  .math-equation-row button:disabled {
+    background-color: #ccc; /* 비활성화 상태의 배경색 */
+    cursor: not-allowed; /* 비활성화 상태의 커서 모양 */
+  }
+  
+  .math-result {
+    width: 20px; /* 고정 너비 */
+  }
+  
+  .math-total-correct {
+    margin-top: 20px; /* 위 여백 */
+    font-weight: bold; /* 폰트 굵게 */
+  }
+  
