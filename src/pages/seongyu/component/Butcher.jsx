@@ -87,87 +87,87 @@ const Butcher = () => {
                 </h2>
 
                 <div className="sg_table-left">
-                    <table>
+                    <table className='sg_table'>
                         <thead>
                             <tr>
-                                <th>부위(100g)</th>
-                                <th>가격</th>
+                                <th className="sg_th">부위(100g)</th>
+                                <th className="sg_th">가격</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>삼겹살</td>
-                                <td>{prices.삼겹살}원</td>
+                                <td className='sg_td'>삼겹살</td>
+                                <td className='sg_td'>{prices.삼겹살}원</td>
                             </tr>
                             <tr>
-                                <td>목살</td>
-                                <td>{prices.목살}원</td>
+                                <td className='sg_td'>목살</td>
+                                <td className='sg_td'>{prices.목살}원</td>
                             </tr>
                             <tr>
-                                <td>앞다리살</td>
-                                <td>{prices.앞다리살}원</td>
+                                <td className='sg_td'>앞다리살</td>
+                                <td className='sg_td'>{prices.앞다리살}원</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div className="sg_table-right">
-                    <table>
+                    <table className='sg_table'>
                         <thead>
                             <tr>
-                                <th>부위(100g)</th>
-                                <th>가격</th>
+                                <th className="sg_th">부위(100g)</th>
+                                <th className="sg_th">가격</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>등심</td>
-                                <td>{prices.등심}원</td>
+                                <td className='sg_td'>등심</td>
+                                <td className='sg_td'>{prices.등심}원</td>
                             </tr>
                             <tr>
-                                <td>안심</td>
-                                <td>{prices.안심}원</td>
+                                <td className='sg_td'>안심</td>
+                                <td className='sg_td'>{prices.안심}원</td>
                             </tr>
                             <tr>
-                                <td>양지</td>
-                                <td>{prices.양지}원</td>
+                                <td className='sg_td'>양지</td>
+                                <td className='sg_td'>{prices.양지}원</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div className="sg_table-down">
-                    <table className="sg_box1">
+                    <table className="sg_box1 sg_table">
                         <thead>
                             <tr>
-                                <th className='sg_jb1'>요리</th>
-                                <th>재료(1인분 기준)</th>
+                                <th className='sg_jb1 sg_th'>요리</th>
+                                <th className='sg_th'>재료(1인분 기준)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>삼겹살구이</td>
-                                <td>삼겹살 150g</td>
+                                <td className='sg_td'>삼겹살구이</td>
+                                <td className='sg_td'>삼겹살 150g</td>
                             </tr>
                             <tr>
-                                <td>돼지김치찜</td>
-                                <td>목살 200g</td>
+                                <td className='sg_td'>돼지김치찜</td>
+                                <td className='sg_td'>목살 200g</td>
                             </tr>
                             <tr>
-                                <td>제육볶음</td>
-                                <td>앞다리살 200g</td>
+                                <td className='sg_td'>제육볶음</td>
+                                <td className='sg_td'>앞다리살 200g</td>
                             </tr>
                             <tr>
-                                <td>소고기미역국</td>
-                                <td>양지 50g</td>
+                                <td className='sg_td'>소고기미역국</td>
+                                <td className='sg_td'>양지 50g</td>
                             </tr>
                             <tr>
-                                <td>안심스테이크</td>
-                                <td>안심 200g</td>
+                                <td className='sg_td'>안심스테이크</td>
+                                <td className='sg_td'>안심 200g</td>
                             </tr>
                             <tr>
-                                <td>등심스테이크</td>
-                                <td>등심 200g</td>
+                                <td className='sg_td'>등심스테이크</td>
+                                <td className='sg_td'>등심 200g</td>
                             </tr>
                         </tbody>
                     </table>

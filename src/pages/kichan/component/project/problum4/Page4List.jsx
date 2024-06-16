@@ -57,6 +57,7 @@ function Page4List() {
             <p>앞서 기억해 둔 고지혈증과 식사요법을 떠올리며 O,X 문제를 풀어보세요(1~4).</p>
             <table className="quiz-table">
               <thead>
+                {/* 표 머리글 */}
               </thead>
               <tbody>
                 <tr>

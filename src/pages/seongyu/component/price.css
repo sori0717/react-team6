@@ -77,14 +77,14 @@
     height: 155px;
 }
 
-table {
+.sg_table {
     width : 330px;
     height : 115px;
     border-collapse: collapse;
     font-weight: 900;
 }
 
-table, th, td {
+.sg_table, .sg_th, .sg_td {
     border: 1px dotted #222;
 }
 
@@ -100,12 +100,12 @@ table, th, td {
     background-color : green;
 }
 
-.sg_table-right th, .table-right td{
+.sg_table-right th, .sg_table-right td{
     width : 110px;
     text-align : center;
 }
 
-.sg_table-left th, .table-left td{
+.sg_table-left th, .sg_table-left td{
     width : 110px;
     text-align : center;
 }

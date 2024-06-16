@@ -119,7 +119,7 @@ const Mart = () => {
                     <table className="sg2_box1">
                         <thead>
                             <tr>
-                                <th className="sg2_jb1">물건</th>
+                                <th className="sg2_jb1 sg2_th">물건</th>
                                 <th>하나마트</th>
                                 <th>소망마트</th>
                                 <th>싱싱마트</th>
@@ -127,34 +127,34 @@ const Mart = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>두루마리 휴지 (1팩)</td>
-                                <td>{prices.두루마리_휴지[0]}</td>
-                                <td>{prices.두루마리_휴지[1]}</td>
-                                <td>{prices.두루마리_휴지[2]}</td>
+                                <td className='sg2_td'>두루마리 휴지 (1팩)</td>
+                                <td className='sg2_td'>{prices.두루마리_휴지[0]}</td>
+                                <td className='sg2_td'>{prices.두루마리_휴지[1]}</td>
+                                <td className='sg2_td'>{prices.두루마리_휴지[2]}</td>
                             </tr>
                             <tr>
-                                <td>물티슈 (1팩)</td>
-                                <td>{prices.물티슈[0]}</td>
-                                <td>{prices.물티슈[1]}</td>
-                                <td>{prices.물티슈[2]}</td>
+                                <td className='sg2_td'>물티슈 (1팩)</td>
+                                <td className='sg2_td'>{prices.물티슈[0]}</td>
+                                <td className='sg2_td'>{prices.물티슈[1]}</td>
+                                <td className='sg2_td'>{prices.물티슈[2]}</td>
                             </tr>
                             <tr>
-                                <td>샴푸 (1병)</td>
-                                <td>{prices.샴푸[0]}</td>
-                                <td>{prices.샴푸[1]}</td>
-                                <td>{prices.샴푸[2]}</td>
+                                <td className='sg2_td'>샴푸 (1병)</td>
+                                <td className='sg2_td'>{prices.샴푸[0]}</td>
+                                <td className='sg2_td'>{prices.샴푸[1]}</td>
+                                <td className='sg2_td'>{prices.샴푸[2]}</td>
                             </tr>
                             <tr>
-                                <td>린스 (1병)</td>
-                                <td>{prices.린스[0]}</td>
-                                <td>{prices.린스[1]}</td>
-                                <td>{prices.린스[2]}</td>
+                                <td className='sg2_td'>린스 (1병)</td>
+                                <td className='sg2_td'>{prices.린스[0]}</td>
+                                <td className='sg2_td'>{prices.린스[1]}</td>
+                                <td className='sg2_td'>{prices.린스[2]}</td>
                             </tr>
                             <tr>
-                                <td>바디로션 (1병)</td>
-                                <td>{prices.바디로션[0]}</td>
-                                <td>{prices.바디로션[1]}</td>
-                                <td>{prices.바디로션[2]}</td>
+                                <td className='sg2_td'>바디로션 (1병)</td>
+                                <td className='sg2_td'>{prices.바디로션[0]}</td>
+                                <td className='sg2_td'>{prices.바디로션[1]}</td>
+                                <td className='sg2_td'>{prices.바디로션[2]}</td>
                             </tr>
                         </tbody>
                     </table>
